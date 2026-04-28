@@ -4,7 +4,6 @@ import Navbar from "@/components/share/Navbar";
 import Footer from "@/components/HomePage/Footer";
 
 const OutfitFont = Outfit({
-  
   subsets: ["latin"],
 });
 
@@ -19,7 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${OutfitFont.className} h-full antialiased`}
+      className={`${OutfitFont.className}  h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         <Navbar />
