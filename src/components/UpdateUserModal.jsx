@@ -14,8 +14,6 @@ export function UpdateUserModal() {
         name,
         image
     })
-
-    
   };
   return (
     <Modal>
